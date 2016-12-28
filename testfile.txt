@@ -1,0 +1,24 @@
+KEHON OSA
+	alaraaja
+		jalkaterä
+			jalkapöytä
+			kantapää
+			varvas
+		lonkka
+		nilkka
+		pohje
+		polvi
+		reisi
+		sääri
+	hermo
+	iho
+	imusolmuke
+	kylki
+	lantio
+	
+	
+MUU ASIA
+	hoitoohje
+		kotiutus
+			kuntoilu
+			itsehoito
