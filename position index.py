@@ -4,6 +4,7 @@ import codecs
 f=codecs.open('testfile.txt', 'r','UTF-8')
 words = f.readlines()
 index = defaultdict(list)
+spacesindex = defaultdict(list)
 
 def isBlank (myString):
     if myString and myString.strip():
@@ -17,9 +18,24 @@ for pos, term in enumerate(words):
     
     if isBlank(term) ==False:
         index[term].append(pos)
-        print (index[term], term)
+        #print (index[term], term)
+        
+        spacesindex[pos].append(spaces)
+        #print (spacesindex[pos], term)
+        
     else:
         continue
+
+for key in index.keys():
+    print ("key: " + key)
+    print ("value")
+    print (index[key])
+
+for key in spacesindex.keys():
+    print ("key")
+    print (key)
+    print ("value")
+    print (spacesindex[key])
         
     
 '''

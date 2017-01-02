@@ -21,4 +21,5 @@ MUU ASIA
 	hoitoohje
 		kotiutus
 			kuntoilu
+			nilkka
 			itsehoito
