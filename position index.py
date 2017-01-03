@@ -2,7 +2,7 @@ from collections import defaultdict
 import codecs
 
 f=codecs.open('testfile.txt', 'r','UTF-8')
-words = f.readlines()
+words = f.read().splitlines()
 index = defaultdict(list)
 spacesindex = defaultdict(list)
 
@@ -17,7 +17,8 @@ for pos, term in enumerate(words):
     spaces=len(term)-len(term.lstrip())
     
     if isBlank(term) ==False:
-        #index[term].append(pos)
+        #remove indentation here, after counting them, before storing string
+        #remove 2 symbols * spaces and 2 from both ends?
         index[str(pos)].append(term)
         
         spacesindex[pos].append(spaces)
@@ -36,7 +37,7 @@ for key in spacesindex.keys():
     print('value ', end="")
     print (spacesindex[key])
 
-print(index['2']) # delete this 
+print (index['2']) # delete this
 '''
 for key in sorted(index):
     print (key, index[key])
