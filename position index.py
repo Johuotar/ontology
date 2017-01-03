@@ -17,27 +17,26 @@ for pos, term in enumerate(words):
     spaces=len(term)-len(term.lstrip())
     
     if isBlank(term) ==False:
-        index[term].append(pos)
-        #print (index[term], term)
+        #index[term].append(pos)
+        index[str(pos)].append(term)
         
         spacesindex[pos].append(spaces)
-        #print (spacesindex[pos], term)
         
     else:
         continue
 
 for key in index.keys():
-    print ("key: " + key)
-    print ("value")
+    print ('key: ' + key , end="")
+    print('value ', end="")
     print (index[key])
 
 for key in spacesindex.keys():
-    print ("key")
+    print('key ', end="")
     print (key)
-    print ("value")
+    print('value ', end="")
     print (spacesindex[key])
-        
-    
+
+print(index['2']) # delete this 
 '''
 for key in sorted(index):
     print (key, index[key])
