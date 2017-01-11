@@ -38,11 +38,10 @@ chosenwline=search(index,chosenw)
 comparedline=chosenwline
 
 while comparedline >= 0:
-    if spacesindex[comparedline] < spacesindex[chosenwline]:
-        #print(spacesindex[comparedline] + spacesindex[chosenwline]) test purposes only code
+    if spacesindex[comparedline] < (spacesindex[chosenwline]):
+        #print(spacesindex[comparedline] + spacesindex[chosenwline]) #test purposes only code
         print(index[str(comparedline)]) #comparedline turned to string because keys are str
         comparedline = comparedline-1
-        chosenwline = chosenwline-1 #requirements increase to find next level of words only
     else:
         #print(spacesindex[comparedline] + spacesindex[chosenwline]) test purpose code 2
         comparedline= comparedline-1
