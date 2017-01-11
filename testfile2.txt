@@ -1,0 +1,542 @@
+IKÄRYHMÄ
+	aikuinen
+	lapsi
+
+
+
+KEHON OSA
+	alaraaja
+		jalkaterä
+			jalkapöytä
+			kantapää
+			varvas
+		lonkka
+		nilkka
+		pohje
+		polvi
+		reisi
+		sääri
+	hermo
+	iho
+	imusolmuke
+	kylki
+	lantio
+		eturauhanen
+		kives
+		kohtu
+		munasarja
+		peräaukko
+		ulkoiset sukupuolielimet
+		virtsarakko
+	lihas
+	luu
+	nivel
+	pään ja kaulan alue
+		aivot
+		kilpirauhanen
+		korva
+		kurkku
+		nenä
+		niska
+		silmä
+		suu
+			hammas
+			kieli
+	rintakehä
+		hartia
+		henkitorvi
+		keuhkot
+		rinnat
+		ruokatorvi
+		sydän
+	selkä
+		selkäranka
+		selkäydin
+	vatsa
+		haima
+		mahalaukku
+		maksa
+		munuainen
+		ohutsuoli
+		paksusuoli
+		perna
+		sappirakko
+		umpisuoli
+	verisuoni
+	yläraaja
+		kyynärpää
+		kyynärvarsi
+		käsi
+			kämmen
+			sormi
+		olkapää
+		olkavarsi
+		ranne
+
+
+
+ELINJÄRJESTELMÄ
+	aistielimet
+		iho
+		kieli
+		korva
+		nenä
+		silmä
+	hengityselimet
+		henkitorvi
+		keuhkot
+		kurkku
+		nenä
+		suu
+			hammas
+			kieli
+	hermosto
+		aivot
+		hermo
+		selkäydin
+	hormonijärjestelmä
+		aivot
+		haima
+		kilpirauhanen
+		kives
+		munasarja
+	puolustusjärjestelmä
+		imusolmuke
+		luu
+		perna
+		umpisuoli
+	ruoansulatuselimet
+		haima
+		hammas
+		kieli
+		kurkku
+		mahalaukku
+		maksa
+		ohutsuoli
+		paksusuoli
+		peräaukko
+		ruokatorvi
+		sappirakko
+		suu
+			hammas
+			kieli
+		umpisuoli
+	sukupuolielimet
+		eturauhanen
+		kives
+		kohtu
+		munasarja
+		rinnat
+		ulkoiset sukupuolielimet
+	tuki- ja liikuntaelimet
+		alaraaja
+			jalkaterä
+				jalkapöytä
+				kantapää
+				varvas
+			lonkka
+			nilkka
+			pohje
+			polvi
+			reisi
+			sääri
+		hartia
+		kylki
+		lihas
+		luu
+		niska
+		nivel
+		selkäranka
+		yläraaja
+			kyynärpää
+			kyynärvarsi
+			käsi
+				kämmen
+				sormi
+			olkapää
+			olkavarsi
+			ranne
+	verenkiertoelimet
+		sydän
+		verisuoni
+	virtsanerityselimet
+		munuainen
+		virtsarakko
+
+
+
+TILA
+	mielenterveys- tai käyttäytymishäiriö
+		ahdistuneisuushäiriö
+		harhaluuloisuushäiriö
+		kehityksen häiriö
+		käyttäytymishäiriö
+		mielialahäiriö
+		persoonallisuushäiriö
+		riippuvuus
+		sekavuustila
+		skitsofrenia
+	myrkytys
+	raskausajan ongelma tai tapahtuma
+		keskenmeno
+		raskauden keskeytys
+		synnytys
+	sairaus
+		aineenvaihduntahäiriö
+		elimen toimintahäiriö
+			liikatoiminta
+			rakenteellinen muutos
+			vajaatoiminta
+		kasvain
+			etäpesäke
+			hyvälaatuinen kasvain
+			syöpä
+		ravitsemustilan häiriö
+		tartuntatauti
+			bakteeritauti
+			loistauti
+			sienitauti
+			virustauti
+	synnynnäinen epämuodostuma
+	tulehdusreaktio
+	vamma
+		amputoituminen
+		haava
+		kuolio
+		murtuma
+		paleltumavamma
+		palovamma
+		repeämä
+		revähdys
+		sijoiltaanmeno
+		syöpymä
+		venähdys
+
+
+
+TOIMENPIDE
+	haavanhoito
+		haavan ompelu
+		haavan puhdistus
+		ompeleiden poisto
+		siteenvaihto
+	hammashoito
+		hampaan paikkaus
+		hampaan poisto
+		hampaiden oikominen
+	kivunhoito
+	kuntoutus
+		kuntoutusohjaus
+		terapia
+			fysioterapia
+			jalkaterapia
+			lymfaterapia
+			psykoterapia
+			puheterapia
+			ravitsemusterapia
+			toimintaterapia
+		vieroitushoito
+	leikkaus
+		elinluovutus
+		elinsiirto
+		korjausleikkaus
+		ohitusleikkaus
+		poistoleikkaus
+		uusintaleikkaus
+	lääkehoito
+		antibioottihoito
+		hormonihoito
+		puudutus
+		solunsalpaajahoito
+	murtuman hoito
+		kipsaus
+		kipsin poisto
+	näytteenotto
+		koepalan otto
+		nieluviljely
+		selkäydinnäytteen otto
+		sylkinäytteen otto
+		ulostenäytteen otto
+		verinäytteen otto
+		virtsanäytteen otto
+		yskösnäytteen otto
+	rokotus
+	saattohoito
+	seuranta
+	sädehoito
+	terveyden edistäminen ja potilasohjaus
+		liikuntaohjaus
+		painonhallinta
+		päihdeohjaus
+		seksuaalineuvonta
+	tutkimus
+		allergiakoe
+		kliinis-fysiologinen tutkimus
+		kuvantaminen
+			isotooppitutkimus
+			magneettikuvaus
+			PET-kuvaus
+			röntgenkuvaus
+			tietokonetomografia
+			ultraäänikuvaus
+		laboratoriokoe
+		luuntiheysmittaus
+		neurologinen tutkimus
+		tähystys
+
+
+
+OIRE
+	aistin oire
+		aistiharha
+		aistin heikkeneminen
+		aistin katoaminen
+		aistin yliherkkyys
+	hengityselimien oire
+		hengenahdistus
+		nuha
+		yskä
+	hermoston oire
+		halvaus
+		huimaus
+		kouristelu
+		kramppi
+		pistely
+		puhehäiriö
+		puutuminen
+		unohtelu
+	ihon oire
+		hikoilu
+		hilseily
+		hiustenlähtö
+		ihon keltaisuus
+		ihon sinisyys
+		ihon valkoisuus
+		ihottuma
+		kutina
+		mustelma
+	mielenterveysoire
+		ahdistuneisuus
+		hermostuneisuus
+		itkuisuus
+		käytöksen muutos
+		masentuneisuus
+		pelko
+		psykoottinen oire
+		ruokahaluttomuus
+		unettomuus
+		uupumus
+		vieroitusoire
+		väkivaltaisuus
+		yksinäisyys
+		ärtyneisyys
+	ruoansulatuselimien oire
+		ilmavaiva
+		laihtuminen
+		lihoaminen
+		närästys
+		oksentelu
+		pahoinvointi
+		ripuli
+		ummetus
+		veriuloste
+		virtsaamisongelma
+	sukupuolielimien oire
+		hedelmättömyys
+		kuukautisiin liittyvä oire
+		seksuaalisuuteen liittyvä oire
+		vaihdevuosiin liittyvä oire
+	tuki- ja liikuntaelimien oire
+		lihas- tai niveljäykkyys
+		lihasheikkous
+	verenkiertoelimien oire
+		rytmihäiriö
+		sydämen sivuääni
+	yleinen oire
+		kipu
+		kuume
+		kuumotus
+		limakalvovaurio
+		punoitus
+		tajuttomuus
+		turvotus
+		verenvuoto
+		väsymys
+
+
+
+SUKUPUOLI
+	mies
+	nainen
+
+
+
+KIELI
+	ruotsi
+	suomi
+
+
+
+ERIKOISALA
+	Anestesiologia
+	Endokrinologia
+	Foniatria
+	Fysiatria
+	Gastroenterologia
+	Gastrokirurgia
+	Hematologia ja kantasolusiirtoyksikkö
+	Ihotaudit
+	Infektiotaudit
+	Kardiologia
+	Keuhkosairaudet
+	Kliininen fysiologia, isotoopit ja PET
+	Kliininen genetiikka
+	Korva-, nenä- ja kurkkutaudit
+	Kuntoutus
+	Käsikirurgia
+	Lastenkirurgia
+	Lastenneurologia
+	Lastentaudit
+	Nefrologia ja dialyysihoidot
+	Neurokirurgia
+	Neurologia
+	Ortopedia ja traumatologia
+	Plastiikkakirurgia
+	Reumatologia
+	Silmätaudit
+	Sisätaudit
+	Suu- ja leukakirurgia
+	Synnytys- ja naistentaudit
+	Syöpätaudit
+	Thoraxkirurgia
+	Työlääketiede
+	Urologia
+	Verisuonikirurgia
+	Yleiskirurgia
+
+
+
+TULOSALUE
+	Alueellinen erikoissairaanhoito
+		Loimaan aluesairaala
+		Salon aluesairaala
+		Vakka-Suomen sairaala
+	Ensihoidon ja päivystyksen liikelaitos
+		Ensihoito
+		Päivystys
+	Psykiatrian tulosalue
+		Aikuispsykiatria
+		Lastenpsykiatria
+		Nuorisopsykiatria
+	Sairaanhoidollisten palvelujen liikelaitos
+		Kliininen neurofysiologia
+		Patologia
+		Tykslab
+		Varsinais-Suomen kuvantamiskeskus
+		Varsinais-Suomen lääkehuolto
+		Varsinais-Suomen välinehuolto
+	Turun yliopistollinen keskussairaala
+		Asiantuntijapalvelut
+			Alueellinen apuvälinekeskus
+			Fysioterapia
+			Kuntoutusohjaus
+			Lääketieteellinen fysiikka
+			Psykologipalvelut
+			Puheterapia
+			Ravitsemusterapia
+			Sairaalapapit
+			Sosiaalityö
+			Toimintaterapia
+		Lasten ja nuorten klinikka
+			Lasten ja nuorten kirurgia
+			Lasten ja nuorten sairaanhoito
+			Lasten ja nuorten veri- ja syöpäsairauksien hoito
+			Lasten neurologia
+			Lasten tehohoito
+			Vastasyntyneiden sairaanhoito
+		Medisiininen
+			Akuutit sisätaudit
+			Endokrinologia
+			Gastroenterologia
+			Hematologia ja kantasolusiirtoyksikkö
+			Ihoklinikka
+			Infektiotaudit
+			Keuhkosairaudet
+			Kliininen fysiologia, isotoopit ja PET
+			Kliininen genetiikka
+			Nefrologia ja dialyysihoidot
+			Reumatologia
+			Sisätaudit
+			Työlääketiede
+		Naistenklinikka
+			Gynekologinen hoito
+			Gynekologisen syövän hoito
+			Raskauden- ja synnytyksen hoito
+		Neuro
+			Aivoverenkiertohäiriöiden hoito
+			Kuntoutus- ja aivovammapotilaan hoito
+			Neurokirurgisen potilaan hoiot
+			Verisuonikirurgisen potilaan hoito
+			Yleisneurologia
+		Operatiivinen toiminta ja syöpätaudit
+			Korvaklinikka
+			Plastiikka- ja yleiskirurgian klinikka
+			Silmäklinikka
+			Suu- ja leukasairauksien klinikka
+			Syöpäklinikka
+		Sydänkeskus
+			Rytmihäiriöhoito
+			Sepelvaltimohoito
+			Sydämen vajaatoiminnan hoito
+			Sydän- ja rintaontelokirurgia
+			Yleiskardiologia
+		Toimenpide-, tehohoito- ja kivunhoitopalvelut
+			A-sairaalan toimenpidepalvelut
+			Hengitystukiyksikkö
+			Kipuklinikka
+			Kirurgisen sairaalan toimenpidepalvelut
+			T-sairaalan toimenpidepalvelut
+			Tehohoitopalvelut
+			U-sairaalan toimenpidepalvelut
+		Tuki- ja liikuntaelinsairaudet
+			Artro
+			Fysiatria
+			Käsikirurgia
+			Reumaortopedia
+			Selkäpotilaan hoito
+			Tekonivelkirurgia
+			Traumojen hoito
+		Vatsakirurgian ja urologian klinikka
+			Päivystyskirurgia
+			Urologia
+			Vatsaelinkirurgia
+	Turunmaan sairaalan liikelaitos
+		Psykiatrian yksikkö
+		Turunmaan sairaala
+
+
+
+HOIDON VAIHE
+	hoito
+	kotiutuminen
+	valmistautuminen
+
+
+
+KEHON TOIMINTA
+	aisti
+		hajuaisti
+		kuuloaisti
+		makuaisti
+		näköaisti
+		tuntoaisti
+
+
+
+ROOLI
+	ammattilainen
+	omainen
+	potilas
+
+
+
