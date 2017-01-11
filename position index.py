@@ -23,8 +23,6 @@ for pos, term in enumerate(words):
     else:
         continue
 
-#Choose word. TODO
-
 chosenw = input('Choose a word: ')
 chosenwline = None
 
@@ -33,30 +31,29 @@ def search(values,searchFor):
         for v in values[k]:
             if searchFor in v:
                 print("found it at " + k)
-                chosenwline=k
-                return chosenwline
+                return int(k)
             print (searchFor + " not found at " + k)
             
-search(index,chosenw)#returns relevant key
+chosenwline=search(index,chosenw)
+comparedline=chosenwline
 
-i=chosenwline
-print("nyt while loop alkaa arvolla: "+str(i))
-while i>0:
-    i=i-1
-    i2=i-1 #no support for indent amount variations atm
-    if spacesindex[i] < spacesindex[i2]: #Skip blanks here
-        print (str(i) + " upperclass of " + str(i2))
+while comparedline >= 0:
+    if spacesindex[comparedline] < spacesindex[chosenwline]:
+        print(spacesindex[comparedline] + spacesindex[chosenwline])
+        print(index[comparedline])#Does not print & deletes data!!! Bug!
+        comparedline = comparedline-1
     else:
-        print("baa")
-'''
+        print(spacesindex[comparedline] + spacesindex[chosenwline])
+        comparedline= comparedline-1
+
+
 for key in index.keys():
-    print ('key: ' + key + ' ' , end="")
+    print ('key: ' + str(key) + ' ' , end="")
     print('value: ', end="")
     print (index[key])
 
 for key in spacesindex.keys():
     print('key: ', end="")
-    print (key, end=" ")
+    print (str(key), end=" ")
     print('value: ', end="")
     print (spacesindex[key])
-    '''
