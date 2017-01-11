@@ -1,7 +1,7 @@
 from collections import defaultdict
 import codecs
 
-f=codecs.open('testfile.txt', 'r','UTF-8')
+f=codecs.open('testfile2.txt', 'r','UTF-8')
 words = f.read().splitlines()#remove end characters
 index = defaultdict(list)
 spacesindex = defaultdict(list)
@@ -31,7 +31,7 @@ def search(values,searchFor):
         for v in values[k]:
             if searchFor in v:
                 print("found it at " + k)
-                return int(k)
+                return int(k) #TODO: find all instances of word instead of just 1st found
             print (searchFor + " not found at " + k)
             
 chosenwline=search(index,chosenw)
@@ -39,14 +39,14 @@ comparedline=chosenwline
 
 while comparedline >= 0:
     if spacesindex[comparedline] < spacesindex[chosenwline]:
-        print(spacesindex[comparedline] + spacesindex[chosenwline])
-        print(index[comparedline])#Does not print & deletes data!!! Bug!
+        #print(spacesindex[comparedline] + spacesindex[chosenwline]) test purposes only code
+        print(index[str(comparedline)]) #comparedline turned to string because keys are str
         comparedline = comparedline-1
+        chosenwline = chosenwline-1 #requirements increase to find next level of words only
     else:
-        print(spacesindex[comparedline] + spacesindex[chosenwline])
+        #print(spacesindex[comparedline] + spacesindex[chosenwline]) test purpose code 2
         comparedline= comparedline-1
-
-
+'''
 for key in index.keys():
     print ('key: ' + str(key) + ' ' , end="")
     print('value: ', end="")
@@ -57,3 +57,4 @@ for key in spacesindex.keys():
     print (str(key), end=" ")
     print('value: ', end="")
     print (spacesindex[key])
+'''
