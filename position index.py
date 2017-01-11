@@ -1,7 +1,7 @@
 from collections import defaultdict
 import codecs
 
-f=codecs.open('testfile2.txt', 'r','UTF-8')
+f=codecs.open('testfile.txt', 'r','UTF-8')
 words = f.read().splitlines()#remove end characters
 index = defaultdict(list)
 spacesindex = defaultdict(list)
@@ -23,25 +23,31 @@ for pos, term in enumerate(words):
     else:
         continue
 
+#Choose word. TODO
+
+chosenw = input('Choose a word: ')
+chosenwline = None
+
 def search(values,searchFor):
     for k in values:
         for v in values[k]:
             if searchFor in v:
                 print("found it at " + k)
-                return k
+                chosenwline=k
+                return chosenwline
             print (searchFor + " not found at " + k)
             
-print (search(index,'polvi'))#returns relevant key
-#Choose word. TODO
+search(index,chosenw)#returns relevant key
 
-
-'''
-i=-1
-while i<=26:
-    i=i+1
-    i2=i+1#no support for indent amount variations atm
-    if spacesindex[i] < spacesindex[i2]:#Skip blanks here
-        print (str(i) + " upperclass of " + str(i2))#Test code pls ignore
+i=chosenwline
+print("nyt while loop alkaa arvolla: "+str(i))
+while i>0:
+    i=i-1
+    i2=i-1 #no support for indent amount variations atm
+    if spacesindex[i] < spacesindex[i2]: #Skip blanks here
+        print (str(i) + " upperclass of " + str(i2))
+    else:
+        print("baa")
 '''
 for key in index.keys():
     print ('key: ' + key + ' ' , end="")
@@ -53,3 +59,4 @@ for key in spacesindex.keys():
     print (key, end=" ")
     print('value: ', end="")
     print (spacesindex[key])
+    '''
