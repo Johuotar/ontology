@@ -38,14 +38,15 @@ chosenwline=search(index,chosenw)
 comparedline=chosenwline
 
 while comparedline >= 0:
-    if spacesindex[comparedline] < (spacesindex[chosenwline]):
-        #print(spacesindex[comparedline] + spacesindex[chosenwline]) #test purposes only code
+    if index[chosenwline]==None: #End if empty line TODO: skip lines with less indent than last check
+        print("asd")
+        break
+    if spacesindex[comparedline] < spacesindex[chosenwline]:
         print(index[str(comparedline)]) #comparedline turned to string because keys are str
         comparedline = comparedline-1
     else:
-        #print(spacesindex[comparedline] + spacesindex[chosenwline]) test purpose code 2
         comparedline= comparedline-1
-'''
+
 for key in index.keys():
     print ('key: ' + str(key) + ' ' , end="")
     print('value: ', end="")
@@ -56,4 +57,4 @@ for key in spacesindex.keys():
     print (str(key), end=" ")
     print('value: ', end="")
     print (spacesindex[key])
-'''
+
