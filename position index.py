@@ -31,21 +31,24 @@ def search(values,searchFor):
         for v in values[k]:
             if searchFor in v:
                 print("found it at " + k)
-                return int(k) #TODO: find all instances of word instead of just 1st found
+                return int(k)
             print (searchFor + " not found at " + k)
-            
+#TODO: find all instances of word instead of just 1st found
 chosenwline=search(index,chosenw)
 comparedline=chosenwline
+loop=True
 
-while comparedline >= 0:
-    if index[chosenwline]==None: #End if empty line TODO: skip lines with less indent than last check
-        print("asd")
-        break
-    if spacesindex[comparedline] < spacesindex[chosenwline]:
-        print(index[str(comparedline)]) #comparedline turned to string because keys are str
-        comparedline = comparedline-1
-    else:
-        comparedline= comparedline-1
+if comparedline == None:
+        print("input not found")
+        loop=False
+if loop!=False:
+    while comparedline >= 0:
+#TODO: skip lines with less indent than last check
+        if spacesindex[comparedline] < spacesindex[chosenwline]:
+            print(index[str(comparedline)]) #comparedline turned to string because keys are str
+            comparedline = comparedline-1
+        else:
+            comparedline= comparedline-1
 
 for key in index.keys():
     print ('key: ' + str(key) + ' ' , end="")
