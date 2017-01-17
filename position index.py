@@ -25,11 +25,10 @@ for pos, term in enumerate(words):
 
 chosenw = input('Choose a word: ')
 chosenwline = None
-
 def search(values,searchFor):
     for k in values:
         for v in values[k]:
-            if searchFor in v:
+            if searchFor == v: #Must perfect match
                 print("found it at " + k)
                 return int(k)
             print (searchFor + " not found at " + k)
